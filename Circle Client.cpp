@@ -37,7 +37,7 @@ int main()
     Circle cr2(10, 10, -1, static_cast<Circle::Color>(6));
     cr2.displayCircle();
     // User testing 
-    while (true)
+    while (false);
     {
         cout << "\n\nEnter information for a new Circle.\n";
         cout << "\nEnter the X coordinate: ";
